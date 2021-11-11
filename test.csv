@@ -1,0 +1,8 @@
+Text,Label,
+The performance shall depend upon hardware components of the client/customer. ,3,
+The system shall use secure sockets in all transactions that include any confidential customer information.,3,
+The system shall automatically log out all customers after a period of inactivity.,1,
+The system shall confirm all transactions with the customer’s web browser.,1,
+The system shall not leave any cookies on the customer’s computer containing the user’s password.,1,
+The system shall not leave any cookies on the customer’s computer containing any of the user’s confidential information.,1,
+The customer’s web browser shall never display a customer’s password.  It shall always be echoed with special characters representing typed characters.,2,
