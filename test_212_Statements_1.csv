@@ -1,0 +1,212 @@
+Text,Label
+The system shall display all the products that can be configured.,1
+The system shall allow user to select the product to configure.,1
+The system shall display all the available components of the product to configure,1
+The system shall enable user to add one or more component to the configuration.,1
+The system shall notify the user about any conflict in the current configuration.,1
+The system shall allow user to update the configuration to resolve conflict in the current configuration.,1
+The system shall display detailed information of the selected products.,2
+The system shall provide browsing options to see product details.,1
+The system shall display detailed product categorization to the user.,1
+The system shall enable user to enter the search text on the screen.,1
+The system shall enable user to select multiple options on the screen to search.,1
+The system shall display all the matching products based on the search,1
+The system shall display only 10 matching result on the current screen.,2
+The system shall enable user to navigate between the search results.,1
+The system shall notify the user when no matching product is found on the search.,1
+The system shall allow user to create profile and set his credential.,1
+The system shall authenticate user credentials to view the profile.,1
+The system shall allow user to update the profile information.,1
+The system shall display both the active and completed order history in the customer profile.,2
+The system shall allow user to select the order from the order history.,2
+The system shall display the detailed information about the selected order.,2
+The system shall display the most frequently searched items by the user in the profile.,3
+The system shall allow user to register for newsletters and surveys in the profile.,3
+"The system shall provide online help, FAQ?s customer support, and sitemap options for customer support.",3
+The system shall allow user to select the support type he wants.,2
+The system shall allow user to enter the customer and product information for the support.,2
+The system shall display the customer support contact numbers on the screen.,3
+The system shall allow user to enter the contact number for support personnel to call.,2
+The system shall display the online help upon request.,3
+The system shall display the FAQ?s upon request.,3
+The system shall maintain customer email information as a required part of customer profile.,3
+The system shall send an order confirmation to the user through email.,3
+The system shall display detailed invoice for current order once it is confirmed.,3
+The system shall optionally allow user to print the invoice.,3
+The system shall provide shopping cart during online purchase.,3
+The system shall allow user to add/remove products in the shopping cart.,3
+The system shall display different shipping options provided by shipping department.,2
+The system shall enable user to select the shipping method during payment process.,3
+The system shall display the shipping charges.,3
+The system shall display tentative duration for shipping.,3
+The system shall allow user to enter the order information for tracking.,3
+The system shall display the current tracking information about the order.,3
+The system shall calculate tax for the order.,2
+The system shall display tax information for the order.,2
+The system shall display available payment methods for payment.,2
+The system shall allow user to select the payment method for order.,3
+The system shall display the orders that are eligible to change.,1
+The system shall allow user to select the order to be changed.,1
+The system shall allow user to cancel the order,3
+"The system shall allow user to change shipping, payment method.",3
+The system shall notify the user about any changes made to the order.,3
+"The system shall display the reviews and ratings of each product, when it is selected.",3
+The system shall enable the user to enter their reviews and ratings.,3
+The system shall display all the available financing options.,1
+The system shall allow user to select the financing option.,1
+The system shall notify the use about the financing request.,1
+The system shall allow user to view detailed sitemap.,1
+The system shall display all the available promotions to the user.,2
+The system shall allow user to select available promotion.,2
+The system shall allow user to confirm the purchase.,3
+The system shall enable user to enter the payment information.,3
+The system shall provide a uniform look and feel between all the web pages.,3
+The system shall provide a digital image for each product in the product catalog.,3
+The system shall provide use of icons and toolbars.,3
+The system shall provide handicap access.,1
+The system shall provide multi language support.,2
+The system shall provide storage of all databases on redundant computers with automatic switchover.,2
+The system shall provide for replication of databases to off-site storage locations.,2
+The system shall provide RAID V Disk Stripping on all database storage disks.,3
+The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.,2
+The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.,3
+The product shall be based on web and has to be run from a web server.,3
+The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.,3
+The performance shall depend upon hardware components of the client/customer. ,3
+The system shall use secure sockets in all transactions that include any confidential customer information.,3
+The system shall automatically log out all customers after a period of inactivity.,3
+The system shall confirm all transactions with the customer?s web browser.,3
+The system shall not leave any cookies on the customer?s computer containing the user?s password.,3
+The system shall not leave any cookies on the customer?s computer containing any of the user?s confidential information.,3
+The customer?s web browser shall never display a customer?s password.  It shall always be echoed with special characters representing typed characters.,3
+The customer?s web browser shall never display a customer?s credit card number after retrieving from the database.  It shall always be shown with just the last 4 digits of the credit card number.,3
+The system?s back-end servers shall never display a customer?s password.  The customer?s password may be reset but never shown.,3
+The system?s back-end servers shall only be accessible to authenticated administrators.,3
+The system?s back-end databases shall be encrypted.,3
+"The Clarus system shall collect, quality control, and disseminate environmental data.",1
+The Clarus system shall be able to access remotely sensed environmental observations from data collectors.,2
+The Clarus system shall calculate derived environmental data from observations.,2
+The Clarus system shall be able to receive roadway weather measurements derived from VII data.,2
+The Clarus system shall allow access to new surface transportation related observed environmental data.,1
+The Clarus system shall accept environmental data derived from images.,3
+The Clarus system shall accept surface condition data derived from surface images.,3
+The Clarus system shall accept atmospheric condition data derived from atmospheric images.,3
+"The Clarus system shall accept weather hazard reports containing the hazard type, location, and timeframe.",3
+"The Clarus system shall acquire and disseminate National Weather Service (NWS) watches, warnings, and advisories.",2
+The Clarus system shall be able to retrieve environmental data directly from environmental sensor stations.,3
+The Clarus system shall minimize the time for data acquisition.,3
+The Clarus system shall process data as they are received.,3
+The Clarus system shall collect pavement_related observations.,3
+The Clarus system shall accept environmental data from railway systems or in situ ESS along tracks.,3
+The Clarus system shall accept environmental data from railroad vehicles.,3
+The Clarus system shall accept environmental data from (roadway) vehicles.,3
+The Clarus system shall accept environmental data from maintenance and construction vehicles.,3
+The Clarus system shall accept environmental data from service patrol vehicles.,3
+The Clarus system shall accept environmental data from transit vehicles.,3
+The Clarus system shall accept environmental data from emergency vehicles.,3
+The Clarus system shall be able to receive weather data from weather service providers.,3
+The Clarus system shall implement continuous quality control processes.,1
+The Clarus system shall provide environmental data quality flags.,1
+The Clarus system shall provide notification of data quality conditions to data collectors.,3
+The Clarus system shall detect out of range values.,2
+The Clarus system shall not modify original observations.,3
+The Clarus system shall apply appropriate quality checks based on the completeness of received sensor station metadata.,3
+The Clarus system shall allow human intervention to override automatically applied quality assessment.,2
+The Clarus system shall record the methods applied when deriving quality control information.,2
+The Clarus system shall be able to implement quality control rules for each environmental parameter.,2
+The Clarus system shall be able to implement quality control rules for specific environmental situations.,2
+The Clarus system shall be able to implement quality control rules specific to observation locations.,2
+The Clarus system shall be able to base its quality control process on values from multiple observations.,2
+The Clarus system shall be able to base its quality control process on historical environmental data.,2
+The Clarus system shall be able to use multiple algorithms for its quality control process.,3
+The Clarus system shall be able to detect data submission errors.,3
+The Clarus system shall be able to provide sensor equipment data in response to a request.,3
+The Clarus system shall minimize the time for data dissemination.,3
+The Clarus system shall be able to disseminate data based on spatial queries.,3
+The Clarus system shall maintain a dynamic library of data for at least seven days.,2
+The Clarus program shall alert users to system modifications.,3
+The Clarus system shall not require approval to request environmental data.,3
+The Clarus system shall enable system administrators to manage security groups.,3
+ The Clarus system shall be able to restrict environmental data publication basTd on source.,3
+The Clarus system shall record statistics about its operation.,3
+The Clarus system shall log data transactions.,3
+The Clarus system shall accept data through a Clarus standard interface.,3
+The Clarus system shall be able to communicate with environmental sensor stations using the NTCIP ESS 1204 standard for data collection.,3
+The Clarus system shall be able to communicate with RWIS databases through their native interfaces.,3
+The Clarus system shall be able to communicate with an individual ESS through its native interface.,3
+The Clarus system shall be able to collect environmental data that are manually entered.,3
+The Clarus system shall transfer data as efficiently as possible.,3
+The Clarus system shall employ industry standards to minimize implementation impact to users and providers.,2
+The Clarus system shall allow service providers to select specific desired data sets.,2
+The Clarus system shall respond to queries for environmental data from the available data.,3
+The Clarus system shall enable environmental data queries by timestamp.,3
+The Clarus system shall enable environmental data queries by location reference.,3
+The Clarus system shall enable environmental data queries by quality.,3
+The Clarus system shall enable environmental data queries by source.,2
+The Clarus system shall provide a user interface for system administration.,3
+The Clarus system shall manage system user privileges according to the Clarus data sharing agreements.,2
+The Clarus system shall allow users to create a data subscription request.,3
+The Clarus system shall be able to be hosted at one or more physical locations.,3
+The Clarus system shall use hardware that implements industry accepted standard interfaces.,3
+The Clarus system shall use software that implements industry accepted standard interfaces.,3
+The Clarus system shall be able to operate on redundant hardware.,2
+The Clarus system shall disseminate data in response to a scheduled request.,3
+The Clarus system shall disseminate data in response to polling.,2
+The Clarus system shall disseminate data in response to a change notification request.,3
+The Clarus system shall be able to notify subscribers when data sets become available.,3
+The Clarus system shall disseminate data using standard Internet protocols.,3
+Tll HTML coding shall meet FHWA requirements for web sites.,2
+The Clarus system shall support modular components.,2
+"The Clarus system shall be able to use latitude, longitude, and elevation (standard GPS) coordinates to specify location to the nearest fifty feet.",3
+The Clarus system shall use Coordinated Universal Time (UTC) for all timestamps.,3
+The Clarus system shall have a minimum of one system administrator.,3
+The Clarus system shall be able to mitigate communication denial-of-service attacks.,3
+The Clarus system shall be able to automatically recover from an unexpected shutdown.,2
+The Clarus system shall be able to respond to 95% of all requests for environmental data 95% of the time.,3
+The Clarus system shall be able to publish environmental data at three times the volume rate that it collects it.,2
+The Clarus system shall be able to prioritize data handling for time-critical data.,2
+The Clarus system shall support 470 million current observations.,2
+The Clarus system shall be able to collect data from sources within 5 minutes of them becoming available.,3
+The Clarus system shall be able to receive all reported environmental data during a fifteen minute time interval.,3
+The Clarus system shall be able to complete an automated quality control check of environmental data within ten seconds of data receipt.,3
+The Clarus system shall be able to publish new data within twenty minutes of data receipt.,3
+The Clarus system shall respond to a request for information within one minute.,3
+The Clarus system shall be able to handle three hundred simultaneous requests for environmental element data.,3
+The Clarus system shall be able to support six hundred concurrent users.,3
+The Clarus system shall be able to support six thousand registered users.,3
+The Clarus system shall accept data only from approved sources.,3
+The Clarus program shall establish data sharing agreements with all participating sources of environmental data.,2
+The Clarus program shall maintain continuous 24x7 operations.,3
+The Clarus program shall provide an environment that has uninterruptible power for the Clarus system.,3
+The Clarus program shall provide an environment that has redundant communication for the Clarus system.,2
+The Clarus program shall provide network management tools.,2
+The Clarus program shall provide setup support.,3
+The Clarus program shall provide for customer service.,3
+The Clarus program shall provide a trained support staff.,3
+The Clarus program shall define data quality assurance methods and criteria.,3
+The Clarus program shall define quality control rules for environmental observations.,3
+The Clarus program shall define data retention standards.,3
+The Clarus program shall provide documentation of Clarus standards.,3
+The Clarus program standards shall accommodate contributions of new sensor technologies to the Clarus system.,3
+The Clarus program standards shall support multiple methods of data delivery to users.,2
+The Clarus program shall maintain a comprehensive Clarus system test environment.,3
+The Clarus program shall test all software changes in the designated test environment before deployment to production.,3
+The Clarus program shall test all hardware changes in the designated test environment before deployment to production.,3
+The Clarus program shall operate the Clarus system according to its published IT Security Plan.,2
+"The Clarus program shall operate according to Government IT security requirements as outlined in OMB Circular A-130, Management of Federal Information Resources, Appendix III, Security of Federal Automated Information Resources.",2
+"The Clarus program shall operate according to Government IT security requirements as outlined in the National Institute of Standards and Technology (NIST) Guidelines, Departmental Information Resource Management Manual, and associated guidelines.",2
+"The Clarus program shall operate according to Government IT security requirements as outlined in DOT Order 1630.2B, Personnel Security Management.",2
+Weather service providers shall be able to use Clarus data to provide localized special weather products.,3
+Public agency maintenance and construction personnel shall be able to use the Clarus system to obtain environmental conditions.,3
+Rail system personnel shall be able to use the Clarus system to obtain environmental conditions.,3
+Traffic management personnel shall be able to use the Clarus system to obtain environmental conditions.,3
+Transit personnel shall be able to use the Clarus system to obtain environmental conditions.,3
+The freight community shall be able to use the Clarus system to obtain environmental conditions.,3
+29-Emergency management and public safety personnel shall be able to use the Clarus system to obtain environmental conditions.,3
+The Clarus program shall maintain information about data providers.,3
+The Clarus program shall maintain metadata about each data provider's network.,3
+The Clarus program shall maintain information about data provider redistribution restrictions.,3
+The Clarus program shall maintain information about service providers.,3
+The Clarus program shall maintain information about service provider communications.,3
+The Clarus program shall maintain information about service provider access to data.,3
+The Clarus program shall allow potential weather element data providers to request permission to submit weather information.,3
