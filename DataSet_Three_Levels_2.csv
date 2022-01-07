@@ -1,0 +1,183 @@
+Text,Label
+System shall accept input into digital audio library from CD.,1
+System shall allow user to enter a CD into a tray and immediately rip the CD.,3
+System shall collect all available metadata from the CD from the Internet for categorization.,2
+System shall store audio binary in a lossless format.,3
+System shall accept input into the digital audio library from a USB device.,1
+System shall provide interface for users to manually place audio file into digital audio library.,1
+System shall automatically normalize volume of all audio files loaded into the digital audio library.,1
+System shall store information about audio files in some searchable entity.,1
+System shall provide users the ability to alter metadata for any file in the collection.,1
+System shall allow users to remove audio files from the digital audio library.,1
+"System shall allow for categorization of audio files by important fields such as genre, artist, album, etc.",1
+System shall allow audio playback.,1
+System shall allow for wired or wireless connection to any device capable of audio playback.,3
+System shall allow centralized panel to play back various audio files in different rooms of the house.,2
+System shall provide access point in garage so digital audio can be downloaded to an automobile audio system.,2
+System shall allow users to author new CDs.,1
+System shall allow users to select tracks for newly authored CD from a playlist or from the complete library.,3
+System shall allow user to select which format to use.,3
+System shall allow user to select a CD burning drive.,3
+System shall provide guidance to users for available space depending on the drive and media selected as well as the format chosen.,3
+System shall verify proper media is in the selected drive.,2
+System shall allow user to select order for the tracks.,2
+System shall allow user to confirm track information to start authoring the CD.,3
+System shall perform necessary audio conversion and burn the CD based on the user's authoring details.,2
+System may notify user when the authoring process is complete.,3
+"System shall allow users to create, edit, and delete playlists",1
+Playlist shall consist of one to N number of tracks selected from the digital library.,3
+A single track may reside in any number of playlists.,3
+A single track may not reside in an individual playlist more than once.,3
+System shall allow users to set a name and description for all playlists created.,3
+System shall allow users to transfer music from the digital library to portable music players.,1
+System shall allow track transfer according to both complete playlists as well as individual tracks.,1
+System shall allow users to format or delete the current selection of tracks on the portable device before transferring.,3
+System shall allow users to append additional tracks or playlists to the portable device as space permits.,3
+System shall add tracks to the device in the order they were selected by the user until all tracks are transferred or the device is full.,3
+System shall handle providing water for the pets.,1
+Pet watering bowls shall be tied into the water filtration system .,2
+System shall monitor consumption of water on a daily basis for pet bowls.,3
+System may send time-defined notifications to users detailing the water consumption by pets.,3
+System shall allow user to set portion weight for every bowl for the system.,3
+Pet food delivery shall be portioned to user-defined weight.,2
+Pet food delivery shall not exceed the amount of the portion weight; weight includes food already in bowl.,3
+Food consumption shall be recorded per pet every feeding cycle.,2
+Alert messages shall be sent if food delivery system dispenses no food for three consecutive cycles.,2
+System shall present a report for food consumption per pet.,2
+Pet food consumption data shall persist no less than 30 days.,3
+Pets shall wear RFID tags on their collars.,3
+Pet food bowls shall open only when proper RFID tag is present.,3
+System shall monitor and maintain pet litter box(es).,1
+"Pet litter box shall be cleaned when odor levels reach a userdefined mark, and litter disposal unit is not full.",3
+System shall notify users if odor levels are above defined ceiling for more than 8 hours.,3
+System shall notify users every 2 hours when litter levels are low and continue to send alerts until the litter levels are within configurable ranges.,2
+"System shall notify users every 4 hours when litter disposal container (where dirty litter is stored) is full, and continue to send alerts until the litter disposal unit is not full",2
+System shall monitor pet?s health.,1
+System may incorporate weight pad to measure weight while pet is feeding (pet based on RFID).,3
+System may send user-defined notifications of weight change.,2
+System may maintain weight data for no less than 30 days.,3
+System shall accept user input for types and intervals for vaccinations.,2
+System shall accept input for when vaccinations have been administered.,3
+System shall send notifications when vaccinations are more than 1 week overdue.,3
+System shall maintain vaccination records for no less than 5 years.,3
+Coffee maker shall be tied into the water purification system.,1
+"System shall start coffee maker at any user-defined time as long as water is present, coffee bean levels are sufficient and unit is powered.",1
+"System shall send a notification when bean levels are low When bean levels are too low to make coffee, system shall send an alert and coffee maker shall blink a warning indicator.",1
+Coffee maker shall use a reusable filter,1
+System shall send notification when filter should be cleaned or changed.,1
+Coffee maker shall shut off if weight measured by burner plate is less than the weight of the carafe or more than the weight of a full carafe.,1
+Coffee maker shall have an emergency stop button clearly visible and accessible.,1
+Coffee maker shall stop within 1 microsecond when button is pressed.,1
+Coffee maker shall turn off if carafe is not removed from burner plate for 30 consecutive minutes ,1
+System shall monitor temperature of hot tub water at all times.,1
+Hot tub cover shall open with proper biometric credentials or proper entry of code on numeric key pad.,1
+Hot tub cover shall not open if water temperature is not within a userdefined safe range.,1
+System shall monitor pH and bacterial levels of hot tub water.,1
+Hot tub cover shall not open if pH and bacterial levels are outside userdefined norms.,1
+System shall administer chemicals to the hot tub water to maintain proper pH and bacterial levels.,1
+System shall notify users when chemical levels are low.,1
+System may send notifications of chemical administration information.,1
+Hot tub shall be tied into central water system.,1
+System shall monitor water levels of hot tub.,1
+System shall replenish water to maintain proper water level.,1
+System may send notifications of water level replenishment.,1
+Hot tub cover shall not open if water level is outside user-defined norms.,1
+"Hot tub cover shall close with button press or if no activity/motion is detected for some time range, and water displacement levels are normal.",1
+Hot tub shall sound alarm if no activity or motion is detected for some defined time range and water displacement indicates there is someone in the tub.,1
+System shall control any number of indoor irrigation access points.,1
+All access points shall be accompanied with soil moisture detector.,1
+System shall allow user to define desired moisture level and watering intervals for each watering access point in the house.,1
+System shall control watering units at each access point to keep soil at a steady moisture level,1
+"If plants are on an interval, system shall bring the moisture level up to defined range during each watering interval.",1
+System shall record water used and average soil moisture levels per access point.,1
+System shall maintain indoor watering information for no less than fourty five days.,1
+System may accept input for soil moisture warning levels.,1
+System shall send notifications if moisture levels drop below user-defined floors for more than 4 hours,1
+Irrigation system shall be plugged into the water system.,1
+System shall control any number of yard irrigation devices.,1
+System shall allow user to configure any irrigation device.,1
+"Irrigation devices shall be configurable for type of stream, amounts of water, and turn rotation during cycle.",1
+System shall test irrigation devices independently for setting configurations.,1
+System shall run a test cycle of all irrigation devices simultaneously to test configuration and coverage.,1
+System shall have access to any number of devices reporting soil moisture.,1
+System may base water cycles on soil moisture or by a set schedule.,1
+System shall allow user to set groups of irrigation devices or individual irrigation devices. ,1
+System shall not run irrigation devices if rain is detected.,1
+System shall be able to retrieve weather forecast from the Internet.,1
+"System may be configured to skip a user-defined number of watering cycles if rain is in the immediate forecast (i.e., rain is 60% likely over the next 2 days)",1
+System shall record the amount of water deployed through each individual irrigation device.,1
+System shall present users with reports for water deployment through the lawn irrigation system.,1
+System shall maintain data for lawn irrigation for no less than thirty days.,1
+"System shall allow for motion detectors to be present in specified areas in lawn (i.e., flowerbeds or flower pots).",1
+System shall allow for users to configure settings for when to activate lawn motion detectors.,1
+"System shall deploy counter measures (i.e., loud sound, scent repellent) ",1
+when motion detectors are tripped during user-defined time periods (for scaring off animals trying to eat plants),1
+"SH shall have reservoirs for cleaning different surfaces outside the home (i.e., windows and siding). ",1
+System shall monitor levels of all materials needed to clean exterior surfaces.,1
+System shall send notifications when materials are low.,1
+System shall accept any number of cleaning devices to control.,1
+System shall allow users to assign category to the type of device under the system?s control. ,1
+System shall accept input on what type of schedule should be used to deploy devices for cleaning various exterior surfaces. ,1
+System shall deploy cleaning devices according to the user inputted schedule.,1
+System shall store and report information about cleaning material usages on a daily basis.,1
+System shall maintain cleaning material usage data for no less than 30 days,1
+System shall allow users to configure routines.,1
+"System shall allow users to set alarm or wake up calls for various occupants within the house, including visitors. ",1
+System shall allow users to control certain activities as a result of a trigger. ,1
+"System shall support voice activation in major living areas (i.e., living room, kitchen, etc.).",1
+System shall support commands to raise the current target temperature of the thermostat. ,1
+System shall support commands to lower the current target temperature of the thermostat. ,1
+System shall support command to draw a bath in the master bathroom,1
+Master bed shall have heating element capable of warming the bed.,1
+System shall support command to begin prewarming the bed in the master bedroom.,1
+System shall support command to prepare the hot tub for use.,1
+System shall support commands to dim or switch off lights in any room in the house.,1
+System shall support commands to turn air conditioning or heating on and off. ,1
+System shall support commands to open windows and/or blinds on various levels of the house. ,1
+System shall support command to lock all points of entry.,1
+"System shall support command to secure the house, which would lock all points of entry and close all windows and blinds",1
+Driveway shall have heating element installed underneath it.,1
+System shall constantly monitor driveway surface temperature.,1
+System will turn on driveway heating if the surface temperature of the driveway is conducive to freezing water. ,1
+Driveway heating element will shut off or not run if the driveway is above 40 degrees Fahrenheit. ,1
+System will monitor and record when driveway heating element is in use.,1
+"System may be set to only run heating surface at night, or based on timeof-day settings.",1
+System shall allow users to enter food associated with RFID tag into the kitchen inventory system.,1
+System shall present reports to users of food inventory.,1
+"System shall allow users to call in (i.e., from grocery store) to check on stock of certain items in the kitchen?s inventory.",1
+System shall monitor and track the usage of certain items.,1
+"System shall present users with reports on item usage (i.e., for diets, and food spending forecasting).",1
+System shall maintain item inventory and usage for no less than 18 months.,1
+System shall provide interface for recipe center to provide feedback on stock of items needed for recipe.,1
+System may provide intelligent interface to create shopping list templates based on average food usage,1
+System shall allow users to enter recipes.,1
+"System shall allow users to define categories for recipes stored within the recipe center (i.e., appetizer, beef main course, dessert, etc.)",1
+"System shall provide touch pad interface in the kitchen for users to search, recall, and view recipes.",1
+"System shall provide interface for users to add, modify, and delete recipes from the repository.",1
+"System shall provide users with recipes in a specified category where all items are currently in stock. (i.e., ?What can I make tonight??).",1
+"System shall provide users the ability to send recipes to friends electronically (i.e., email, micro web pages, etc.)",1
+System shall provide users the ability to create/print a categorized cookbook of all recipes currently within the system.,1
+System shall allow users to store image file linked to any recipe within the system. ,1
+System shall allow user to enter assisted baking mode.,1
+System shall automatically preheat the oven.,2
+System shall verbalize order of ingredients to add.,3
+System shall accept verbal confirmation once item is added before instructing to add the next item.,3
+System shall serve as answering machine for household.,1
+System shall allow users to configure number of rings before answering.,1
+System shall allow users to configure any number of phone mail boxes for recipients.,1
+System shall allow users to record greeting message that will be played after user-defined number of rings.,1
+System shall allow users to configure greeting message to be played for individual mail boxes.,1
+"System shall record messages for recipients along with date, time stamp, and incoming phone number to non-volatile memory",1
+"System shall send out notification to users when they have a new message in their mailbox (i.e., email, text message, pages, etc.)",1
+System shall make messages available via authenticated web interface for user retrieval,1
+System shall provide wireless support for driving any number of wall mounted monitors for picture display.,1
+System shall provide web-based interface for authenticated users to publish new photos for display on wall monitors.,1
+System shall allow users to configure which pictures get displayed.,1
+System shall allow users to configure which remote users can submit pictures to which wall monitor.,1
+System shall support the following playback modes Random?display random photos Slideshow?display photos in order for some user-defined time Single?display only selected or most recently submitted photo.,1
+"System shall provide remote users with storage for up to 20 pictures in their repository or 100MB, whichever is greater.",1
+System shall monitor any number of mail and newspaper boxes for motion and weight.,1
+System shall allow users to set notification events for those boxes.,1
+System shall send notifications when motion is detected coupled with a change in static weight of the box.,1
+"System shall allow user to turn off any notification events for a set period (i.e., when snow or something else may trigger the motion and weight sensors).",1
+System shall permit user to query the status of any of the boxes. The status would be empty or occupied.,1
