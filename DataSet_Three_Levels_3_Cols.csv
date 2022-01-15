@@ -1,0 +1,239 @@
+Req_No,Text,Label
+R1,System shall accept input into digital audio library from CD.,1
+R2,System shall allow user to enter a CD into a tray and immediately rip the CD.,3
+R3,System shall collect all available metadata from the CD from the Internet for categorization.,2
+R4,System shall store audio binary in a lossless format.,3
+R5,System shall accept input into the digital audio library from a USB device.,1
+R6,System shall provide interface for users to manually place audio file into digital audio library.,1
+R7,System shall automatically normalize volume of all audio files loaded into the digital audio library.,1
+R8,System shall store information about audio files in some searchable entity.,1
+R9,System shall provide users the ability to alter metadata for any file in the collection.,1
+R10,System shall allow users to remove audio files from the digital audio library.,1
+R11,"System shall allow for categorization of audio files by important fields such as genre, artist, album, etc.",1
+R12,System shall allow audio playback.,1
+R13,System shall allow for wired or wireless connection to any device capable of audio playback.,3
+R14,System shall allow centralized panel to play back various audio files in different rooms of the house.,2
+R15,System shall provide access point in garage so digital audio can be downloaded to an automobile audio system.,2
+R16,System shall allow users to author new CDs.,1
+R17,System shall allow users to select tracks for newly authored CD from a playlist or from the complete library.,3
+R18,System shall allow user to select which format to use.,3
+R19,System shall allow user to select a CD burning drive.,3
+R20,System shall provide guidance to users for available space depending on the drive and media selected as well as the format chosen.,3
+R21,System shall verify proper media is in the selected drive.,2
+R22,System shall allow user to select order for the tracks.,2
+R23,System shall allow user to confirm track information to start authoring the CD.,3
+R24,System shall perform necessary audio conversion and burn the CD based on the user's authoring details.,2
+R25,System may notify user when the authoring process is complete.,3
+R26,"System shall allow users to create, edit, and delete playlists",1
+R27,Playlist shall consist of one to N number of tracks selected from the digital library.,3
+R28,A single track may reside in any number of playlists.,3
+R29,A single track may not reside in an individual playlist more than once.,3
+R30,System shall allow users to set a name and description for all playlists created.,3
+R31,System shall allow users to transfer music from the digital library to portable music players.,1
+R32,System shall allow track transfer according to both complete playlists as well as individual tracks.,1
+R33,System shall allow users to format or delete the current selection of tracks on the portable device before transferring.,3
+R34,System shall allow users to append additional tracks or playlists to the portable device as space permits.,3
+R35,System shall add tracks to the device in the order they were selected by the user until all tracks are transferred or the device is full.,3
+R36,System shall handle providing water for the pets.,1
+R37,Pet watering bowls shall be tied into the water filtration system .,2
+R38,System shall monitor consumption of water on a daily basis for pet bowls.,3
+R39,System may send time-defined notifications to users detailing the water consumption by pets.,3
+R40,System shall allow user to set portion weight for every bowl for the system.,3
+R41,Pet food delivery shall be portioned to user-defined weight.,2
+R42,Pet food delivery shall not exceed the amount of the portion weight; weight includes food already in bowl.,3
+R43,Food consumption shall be recorded per pet every feeding cycle.,2
+R44,Alert messages shall be sent if food delivery system dispenses no food for three consecutive cycles.,2
+R45,System shall present a report for food consumption per pet.,2
+R46,Pet food consumption data shall persist no less than 30 days.,3
+R47,Pets shall wear RFID tags on their collars.,3
+R48,Pet food bowls shall open only when proper RFID tag is present.,3
+R49,System shall monitor and maintain pet litter box(es).,1
+R50,"Pet litter box shall be cleaned when odor levels reach a userdefined mark, and litter disposal unit is not full.",3
+R51,System shall notify users if odor levels are above defined ceiling for more than 8 hours.,3
+R52,System shall notify users every 2 hours when litter levels are low and continue to send alerts until the litter levels are within configurable ranges.,2
+R53,"System shall notify users every 4 hours when litter disposal container (where dirty litter is stored) is full, and continue to send alerts until the litter disposal unit is not full",2
+R54,System shall monitor pet?s health.,1
+R55,System may incorporate weight pad to measure weight while pet is feeding (pet based on RFID).,3
+R56,System may send user-defined notifications of weight change.,2
+R57,System may maintain weight data for no less than 30 days.,3
+R58,System shall accept user input for types and intervals for vaccinations.,2
+R59,System shall accept input for when vaccinations have been administered.,3
+R60,System shall send notifications when vaccinations are more than 1 week overdue.,3
+R61,System shall maintain vaccination records for no less than 5 years.,3
+R62,Coffee maker shall be tied into the water purification system.,1
+R63,"System shall start coffee maker at any user-defined time as long as water is present, coffee bean levels are sufficient and unit is powered.",1
+R64,"System shall send a notification when bean levels are low When bean levels are too low to make coffee, system shall send an alert and coffee maker shall blink a warning indicator.",1
+R65,Coffee maker shall use a reusable filter,1
+R66,System shall send notification when filter should be cleaned or changed.,1
+R67,Coffee maker shall shut off if weight measured by burner plate is less than the weight of the carafe or more than the weight of a full carafe.,1
+R68,Coffee maker shall have an emergency stop button clearly visible and accessible.,1
+R69,Coffee maker shall stop within 1 microsecond when button is pressed.,1
+R70,Coffee maker shall turn off if carafe is not removed from burner plate for 30 consecutive minutes ,1
+R71,System shall monitor temperature of hot tub water at all times.,1
+R72,Hot tub cover shall open with proper biometric credentials or proper entry of code on numeric key pad.,1
+R73,Hot tub cover shall not open if water temperature is not within a userdefined safe range.,1
+R74,System shall monitor pH and bacterial levels of hot tub water.,1
+R75,Hot tub cover shall not open if pH and bacterial levels are outside userdefined norms.,1
+R76,System shall administer chemicals to the hot tub water to maintain proper pH and bacterial levels.,1
+R77,System shall notify users when chemical levels are low.,1
+R78,System may send notifications of chemical administration information.,1
+R79,Hot tub shall be tied into central water system.,1
+R80,System shall monitor water levels of hot tub.,1
+R81,System shall replenish water to maintain proper water level.,1
+R82,System may send notifications of water level replenishment.,1
+R83,Hot tub cover shall not open if water level is outside user-defined norms.,1
+R84,"Hot tub cover shall close with button press or if no activity/motion is detected for some time range, and water displacement levels are normal.",1
+R85,Hot tub shall sound alarm if no activity or motion is detected for some defined time range and water displacement indicates there is someone in the tub.,1
+R86,System shall control any number of indoor irrigation access points.,1
+R87,All access points shall be accompanied with soil moisture detector.,1
+R88,System shall allow user to define desired moisture level and watering intervals for each watering access point in the house.,1
+R89,System shall control watering units at each access point to keep soil at a steady moisture level,1
+R90,"If plants are on an interval, system shall bring the moisture level up to defined range during each watering interval.",1
+R91,System shall record water used and average soil moisture levels per access point.,1
+R92,System shall maintain indoor watering information for no less than fourty five days.,1
+R93,System may accept input for soil moisture warning levels.,1
+R94,System shall send notifications if moisture levels drop below user-defined floors for more than 4 hours,1
+R95,Irrigation system shall be plugged into the water system.,1
+R96,System shall control any number of yard irrigation devices.,1
+R97,System shall allow user to configure any irrigation device.,1
+R98,"Irrigation devices shall be configurable for type of stream, amounts of water, and turn rotation during cycle.",1
+R99,System shall test irrigation devices independently for setting configurations.,1
+R100,System shall run a test cycle of all irrigation devices simultaneously to test configuration and coverage.,1
+R101,System shall have access to any number of devices reporting soil moisture.,1
+R102,System may base water cycles on soil moisture or by a set schedule.,1
+R103,System shall allow user to set groups of irrigation devices or individual irrigation devices. ,1
+R104,System shall not run irrigation devices if rain is detected.,1
+R105,System shall be able to retrieve weather forecast from the Internet.,1
+R106,"System may be configured to skip a user-defined number of watering cycles if rain is in the immediate forecast (i.e., rain is 60% likely over the next 2 days)",1
+R107,System shall record the amount of water deployed through each individual irrigation device.,1
+R108,System shall present users with reports for water deployment through the lawn irrigation system.,1
+R109,System shall maintain data for lawn irrigation for no less than thirty days.,1
+R110,"System shall allow for motion detectors to be present in specified areas in lawn (i.e., flowerbeds or flower pots).",1
+R111,System shall allow for users to configure settings for when to activate lawn motion detectors.,1
+R112,"System shall deploy counter measures (i.e., loud sound, scent repellent) ",1
+R113,when motion detectors are tripped during user-defined time periods (for scaring off animals trying to eat plants),1
+R114,"SH shall have reservoirs for cleaning different surfaces outside the home (i.e., windows and siding). ",1
+R115,System shall monitor levels of all materials needed to clean exterior surfaces.,1
+R116,System shall send notifications when materials are low.,1
+R117,System shall accept any number of cleaning devices to control.,1
+R118,System shall allow users to assign category to the type of device under the system?s control. ,1
+R119,System shall accept input on what type of schedule should be used to deploy devices for cleaning various exterior surfaces. ,1
+R120,System shall deploy cleaning devices according to the user inputted schedule.,1
+R121,System shall store and report information about cleaning material usages on a daily basis.,1
+R122,System shall maintain cleaning material usage data for no less than 30 days,1
+R123,System shall allow users to configure routines.,1
+R124,"System shall allow users to set alarm or wake up calls for various occupants within the house, including visitors. ",1
+R125,System shall allow users to control certain activities as a result of a trigger. ,1
+R126,"System shall support voice activation in major living areas (i.e., living room, kitchen, etc.).",1
+R127,System shall support commands to raise the current target temperature of the thermostat. ,1
+R128,System shall support commands to lower the current target temperature of the thermostat. ,1
+R129,System shall support command to draw a bath in the master bathroom,1
+R130,Master bed shall have heating element capable of warming the bed.,1
+R131,System shall support command to begin prewarming the bed in the master bedroom.,1
+R132,System shall support command to prepare the hot tub for use.,1
+R133,System shall support commands to dim or switch off lights in any room in the house.,1
+R134,System shall support commands to turn air conditioning or heating on and off. ,1
+R135,System shall support commands to open windows and/or blinds on various levels of the house. ,1
+R136,System shall support command to lock all points of entry.,1
+R137,"System shall support command to secure the house, which would lock all points of entry and close all windows and blinds",1
+R138,Driveway shall have heating element installed underneath it.,1
+R139,System shall constantly monitor driveway surface temperature.,1
+R140,System will turn on driveway heating if the surface temperature of the driveway is conducive to freezing water. ,1
+R141,Driveway heating element will shut off or not run if the driveway is above 40 degrees Fahrenheit. ,1
+R142,System will monitor and record when driveway heating element is in use.,1
+R143,"System may be set to only run heating surface at night, or based on timeof-day settings.",1
+R144,System shall allow users to enter food associated with RFID tag into the kitchen inventory system.,1
+R145,System shall present reports to users of food inventory.,1
+R146,"System shall allow users to call in (i.e., from grocery store) to check on stock of certain items in the kitchen?s inventory.",1
+R147,System shall monitor and track the usage of certain items.,1
+R148,"System shall present users with reports on item usage (i.e., for diets, and food spending forecasting).",1
+R149,System shall maintain item inventory and usage for no less than 18 months.,1
+R150,System shall provide interface for recipe center to provide feedback on stock of items needed for recipe.,1
+R151,System may provide intelligent interface to create shopping list templates based on average food usage,1
+R152,System shall allow users to enter recipes.,1
+R153,"System shall allow users to define categories for recipes stored within the recipe center (i.e., appetizer, beef main course, dessert, etc.)",1
+R154,"System shall provide touch pad interface in the kitchen for users to search, recall, and view recipes.",1
+R155,"System shall provide interface for users to add, modify, and delete recipes from the repository.",1
+R156,System shall provide interface to the food stock to create grocery lists of what items may be needed for some arbitrary number of recipes.,1
+R157,"System shall provide users with recipes in a specified category where all items are currently in stock. (i.e., ?What can I make tonight??).",1
+R158,"System shall provide users the ability to send recipes to friends electronically (i.e., email, micro web pages, etc.)",1
+R159,System shall provide users the ability to create/print a categorized cookbook of all recipes currently within the system.,1
+R160,System shall allow users to store image file linked to any recipe within the system. ,1
+R161,System shall allow user to enter assisted baking mode.,1
+R162,System shall automatically preheat the oven.,2
+R163,System shall verbalize order of ingredients to add.,3
+R164,System shall accept verbal confirmation once item is added before instructing to add the next item.,3
+R165,System shall serve as answering machine for household.,1
+R166,System shall allow users to configure number of rings before answering.,1
+R167,System shall allow users to configure any number of phone mail boxes for recipients.,1
+R168,System shall allow users to record greeting message that will be played after user-defined number of rings.,1
+R169,System shall allow users to configure greeting message to be played for individual mail boxes.,1
+R170,"System shall record messages for recipients along with date, time stamp, and incoming phone number to non-volatile memory",1
+R171,"System shall send out notification to users when they have a new message in their mailbox (i.e., email, text message, pages, etc.)",1
+R172,System shall make messages available via authenticated web interface for user retrieval,1
+R173,System may use voice-to-text engine to send the text representation of the message to user?s email account,1
+R174,System shall provide wireless support for driving any number of wall mounted monitors for picture display.,1
+R175,System shall provide web-based interface for authenticated users to publish new photos for display on wall monitors.,1
+R176,System shall allow users to configure which pictures get displayed.,1
+R177,System shall allow users to configure which remote users can submit pictures to which wall monitor.,1
+R178,System shall support the following playback modes Random?display random photos Slideshow?display photos in order for some user-defined time Single?display only selected or most recently submitted photo.,1
+R179,"System shall provide remote users with storage for up to 20 pictures in their repository or 100MB, whichever is greater.",1
+R180,System shall monitor any number of mail and newspaper boxes for motion and weight.,1
+R181,System shall allow users to set notification events for those boxes.,1
+R182,System shall send notifications when motion is detected coupled with a change in static weight of the box.,1
+R183,"System shall allow user to turn off any notification events for a set period (i.e., when snow or something else may trigger the motion and weight sensors).",1
+R184,System shall permit user to query the status of any of the boxes. The status would be empty or occupied.,1
+R185,The product shall record meeting entries.,1
+R186,The product will notify employees of meeting invitations.,2
+R187,The product shall have the ability to send meeting reminders to employees.,2
+R188,The product shall assign the organizers contact information to each meeting they create.,2
+R189,The product will record meeting acknowledgements.,2
+R190,The product shall store new conference rooms.,2
+R191,The product shall update existing conference rooms.,2
+R192,The product will be able to delete conference rooms.,3
+R193,The product shall be able to store new room equipment.,2
+R194,The product will update existing room equipment.,2
+R195,The product shall be able to delete room equipment.,3
+R196,The product shall allow an organizer to invite other employees to meetings.,2
+R197,Each time a conference room is reserved  the conference room schedule shall be updated to reflect the time and date of the reservation.,3
+R198,The product shall record the transportation status of equipment reserved.,2
+R199,The product shall display a map of the company building showing conference room locations.,3
+R200,The product shall record updated meeting agendas.,2
+R201,The product shall send a meeting confirmation to the meeting organizer.,2
+R202,The product shall display room equipment according to search parameters.,3
+R203,The product shall display conference rooms according to search parameters.,3
+R204,The product shall record different meeting types.,2
+R205,The product shall record all the equipment that has been reserved.,3
+R206,The product shall notify building personnel of equipment transport requests.,2
+R207,The product will allow priviledged users to view meeting schedules in multiple reporting views.,3
+R208,The product shall be able to send meeting notifications via different kinds of end-user specified methods.,3
+R209,The product shall have a customizable Look and Feel.,1
+R210,The product shall have an intuitive user interface.,1
+R211,The product will display an available status for unreserved conference rooms.,3
+R212,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,3
+R213,The System shall allow for a minimum of  6 users to work at the same time.,3
+R214,The System shall utilize currently owned computer equipment.,3
+R215,The System shall be able to automatically backup business data and restore them on demand.,2
+R216,The System shall maintain consistent security.  Any changes in user passwords and/or permissions should take affect in all parts of the System.,3
+R217,The System shall granularly control access rights to all major subsystems.  It should be possible to assign access rights to all subsystems independently.,3
+R218,The System shall meet all applicable accounting standards.  The final version of the System must successfully pass independent audit performed by a certified auditor.,2
+R219,The System shall not require additional third party licenses resulting in royalty fees.,2
+R220,The System shall allow generation of Inventory Quantity Adjustment documents on demand.,2
+R221,The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.,2
+R222,The System shall allow entering  storing and modifying product formulas.,3
+R223,Product formulas shall allow use of semi-products  which have own formulas.,2
+R224,Product formula ingredients shall allow defining substitutionary ingredients.,3
+R225,Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.,2
+R226,Formula substitutionary ingredients shall be kept in persisted order,2
+R227,Product shall allow entering  storing and modifying product menus used by POS terminals.,3
+R228,PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.,3
+R229,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.,3
+R230,PME Subsystem shall allow for a product to exist in more than one submenu,3
+R231,The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.,2
+R232,The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.,3
+R233,The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.,3
+R234,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,3
+R235,Customer shall be able to check the status of their prepaid card  by entering in the PIN number  in under 5 seconds.,3
+R236,System shall let customers register on the website as a ?pay as you go? user in under 5 minutes.,3
+R237,System shall let customers register on the website as a ?unlimited movie subscriber? user in under 10 minutes.,3
+R238,System shall let existing customers log into the website with their email address and password in under 5 seconds.,3
